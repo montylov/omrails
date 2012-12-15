@@ -1,13 +1,14 @@
 <% if user_signed_in? %>
-<h1>Your Signed In!</h1>
+<h1><span style="color: #ffffff;">Welcome &amp; Enjoy the Vibez!</span></h1>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2848139"></iframe>
  <% else %>
 <div class="center hero-unit">
-    <h1>Welcome to One Month Rails</h1>
+    <span style="color: #000000;"><h1>Welcome to Visual Vibez Beta!</span></h1>
 
     <h2>
-      You've found the home page for the
-      <a href="http://omrails.com/">One Month Rails</a>
-      first application.
+      Gain access to great vibez curated by the Visual Vibez team.
+      Stay updated at <a href="http://visualvibez.com/">Visual Vibez</a>
+      official site.
     </h2>
 
     <%= link_to "Sign up now!",  new_user_registration_path, 
